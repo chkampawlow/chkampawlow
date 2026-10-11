@@ -1,0 +1,37 @@
+name: Generate Galaga Contribution Graph
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/galaga.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Generate Galaga SVG
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: chkampawlow
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          games: "galaga"
+
+      - name: Publish SVG to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
