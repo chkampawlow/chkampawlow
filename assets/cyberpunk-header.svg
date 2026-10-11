@@ -1,0 +1,248 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="360" viewBox="0 0 1200 360">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080808"/>
+      <stop offset="100%" stop-color="#1B1905"/>
+    </linearGradient>
+
+    <pattern id="grid" width="35" height="35" patternUnits="userSpaceOnUse">
+      <path d="M35 0H0V35"
+            fill="none" stroke="#FCEE0A" stroke-opacity=".10"/>
+    </pattern>
+
+    <clipPath id="frame">
+      <rect width="1200" height="360" rx="8"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+
+    <!-- Background -->
+    <rect width="1200" height="360" fill="url(#bg)"/>
+    <rect width="1200" height="360" fill="url(#grid)"/>
+
+    <!-- Moving scanline -->
+    <rect x="0" y="-8" width="1200" height="3"
+          fill="#FCEE0A" opacity=".2">
+      <animate attributeName="y"
+               from="-8" to="368"
+               dur="6s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Pulsing HUD border -->
+    <path d="M25 55L65 15H1135L1175 55V305L1135 345H65L25 305Z"
+          fill="none" stroke="#FCEE0A" stroke-width="2">
+      <animate attributeName="stroke-opacity"
+               values=".4;1;.4" dur="3s"
+               repeatCount="indefinite"/>
+    </path>
+
+    <!-- Header label -->
+    <path d="M25 55L65 15H380L350 45H25Z" fill="#FCEE0A"/>
+
+    <text x="75" y="36" font-family="monospace"
+          font-size="20" font-weight="bold" fill="#080808">
+      CHKAMPAWLOW.EXE
+    </text>
+
+    <!-- Blinking status -->
+    <circle cx="1080" cy="35" r="6" fill="#FCEE0A">
+      <animate attributeName="opacity"
+               values="1;.2;1" dur="1.5s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <text x="950" y="41" font-family="monospace"
+          font-size="17" fill="#FCEE0A">
+      SYSTEM ONLINE
+    </text>
+
+    <!-- Terminal introduction -->
+    <text x="80" y="115" font-family="monospace"
+          font-size="24" fill="#F5F5F5">
+      &gt; HELLO, WORLD
+    </text>
+
+    <!-- Blinking terminal cursor -->
+    <rect x="325" y="94" width="13" height="25" fill="#FCEE0A">
+      <animate attributeName="opacity"
+               values="1;0;1" dur="1s"
+               repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Username -->
+    <text x="75" y="185" font-family="monospace"
+          font-size="66" font-weight="bold" fill="#FCEE0A">
+      CHKAMPAWLOW
+      <animate attributeName="opacity"
+               values="1;1;.65;1;1"
+               keyTimes="0;.75;.78;.81;1"
+               dur="7s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- Animated underline -->
+    <rect x="80" y="210" width="550" height="2" fill="#FCEE0A">
+      <animate attributeName="width"
+               values="0;550;550"
+               keyTimes="0;.45;1"
+               dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Developer roles -->
+    <g font-family="monospace" font-size="20" fill="#F5F5F5">
+      <text x="80" y="245">&gt; SOFTWARE ENGINEERING STUDENT</text>
+      <text x="80" y="275">&gt; FULL-STACK DEVELOPER</text>
+      <text x="80" y="305">&gt; BUILDING DIGITAL PRODUCTS</text>
+    </g>
+
+    <!-- Outer radar -->
+    <circle cx="930" cy="185" r="100"
+            fill="none" stroke="#C9A800"
+            stroke-width="1" stroke-dasharray="3 9"
+            opacity=".6"/>
+
+    <!-- Rotating radar ring -->
+    <circle cx="930" cy="185" r="75"
+            fill="none" stroke="#FCEE0A"
+            stroke-width="2" stroke-dasharray="15 8">
+      <animateTransform attributeName="transform"
+                        type="rotate"
+                        from="0 930 185"
+                        to="360 930 185"
+                        dur="18s"
+                        repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Pulsing inner radar ring -->
+    <circle cx="930" cy="185" r="48"
+            fill="none" stroke="#FCEE0A" stroke-width="2">
+      <animate attributeName="r"
+               values="46;52;46" dur="3s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <!-- CYBERNETIC HEXAGON CORE -->
+    <g transform="translate(930 185)">
+
+      <!-- Outer rotating hexagon -->
+      <polygon
+        points="0,-48 42,-24 42,24 0,48 -42,24 -42,-24"
+        fill="none"
+        stroke="#FCEE0A"
+        stroke-width="2.5">
+
+        <animateTransform
+          attributeName="transform"
+          type="rotate"
+          from="0"
+          to="360"
+          dur="16s"
+          repeatCount="indefinite"/>
+      </polygon>
+
+      <!-- Inner counter-rotating hexagon -->
+      <polygon
+        points="0,-29 25,-14.5 25,14.5 0,29 -25,14.5 -25,-14.5"
+        fill="#FCEE0A"
+        fill-opacity=".06"
+        stroke="#C9A800"
+        stroke-width="2">
+
+        <animateTransform
+          attributeName="transform"
+          type="rotate"
+          from="360"
+          to="0"
+          dur="9s"
+          repeatCount="indefinite"/>
+      </polygon>
+
+      <!-- Circuit spokes -->
+      <g stroke="#FCEE0A" stroke-width="1.5" opacity=".7">
+        <line x1="0" y1="-34" x2="0" y2="-19"/>
+        <line x1="29" y1="-17" x2="16" y2="-9"/>
+        <line x1="29" y1="17" x2="16" y2="9"/>
+        <line x1="0" y1="34" x2="0" y2="19"/>
+        <line x1="-29" y1="17" x2="-16" y2="9"/>
+        <line x1="-29" y1="-17" x2="-16" y2="-9"/>
+      </g>
+
+      <!-- Animated circuit nodes -->
+      <g fill="#FCEE0A">
+        <circle cx="0" cy="-34" r="3">
+          <animate attributeName="opacity"
+                   values="1;.2;1" dur="2s"
+                   begin="0s" repeatCount="indefinite"/>
+        </circle>
+
+        <circle cx="29" cy="-17" r="3">
+          <animate attributeName="opacity"
+                   values="1;.2;1" dur="2s"
+                   begin=".3s" repeatCount="indefinite"/>
+        </circle>
+
+        <circle cx="29" cy="17" r="3">
+          <animate attributeName="opacity"
+                   values="1;.2;1" dur="2s"
+                   begin=".6s" repeatCount="indefinite"/>
+        </circle>
+
+        <circle cx="0" cy="34" r="3">
+          <animate attributeName="opacity"
+                   values="1;.2;1" dur="2s"
+                   begin=".9s" repeatCount="indefinite"/>
+        </circle>
+
+        <circle cx="-29" cy="17" r="3">
+          <animate attributeName="opacity"
+                   values="1;.2;1" dur="2s"
+                   begin="1.2s" repeatCount="indefinite"/>
+        </circle>
+
+        <circle cx="-29" cy="-17" r="3">
+          <animate attributeName="opacity"
+                   values="1;.2;1" dur="2s"
+                   begin="1.5s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+
+      <!-- Pulsing energy core -->
+      <circle cx="0" cy="0" r="12"
+              fill="#FCEE0A" fill-opacity=".15"
+              stroke="#FCEE0A" stroke-width="2">
+        <animate attributeName="r"
+                 values="10;15;10"
+                 dur="2s"
+                 repeatCount="indefinite"/>
+        <animate attributeName="fill-opacity"
+                 values=".1;.5;.1"
+                 dur="2s"
+                 repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="0" cy="0" r="4" fill="#FCEE0A">
+        <animate attributeName="opacity"
+                 values="1;.4;1"
+                 dur="1.5s"
+                 repeatCount="indefinite"/>
+      </circle>
+
+    </g>
+
+    <!-- Bottom motto -->
+    <text x="930" y="315" text-anchor="middle"
+          font-family="monospace" font-size="15" fill="#FCEE0A">
+      BUILD // BREAK // LEARN
+    </text>
+
+    <!-- Animated bottom indicator -->
+    <rect x="80" y="328" width="120" height="3" fill="#FCEE0A">
+      <animate attributeName="width"
+               values="30;120;30"
+               dur="3s" repeatCount="indefinite"/>
+    </rect>
+
+  </g>
+</svg>

@@ -1,0 +1,328 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="400"
+     viewBox="0 0 1200 400"
+     role="img"
+     aria-label="CHKAMPAWLOW Developer Dashboard">
+
+  <defs>
+    <!-- Background -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080808"/>
+      <stop offset="100%" stop-color="#171604"/>
+    </linearGradient>
+
+    <!-- Subtle grid -->
+    <pattern id="grid"
+             width="30" height="30"
+             patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30"
+            fill="none"
+            stroke="#FCEE0A"
+            stroke-opacity=".04"/>
+    </pattern>
+
+    <clipPath id="frame">
+      <rect width="1200" height="400" rx="8"/>
+    </clipPath>
+
+    <!-- Technology card -->
+    <g id="card">
+      <path d="M0 10L10 0H225L235 10V47L225 57H10L0 47Z"
+            fill="#151407"
+            stroke="#5D5512"
+            stroke-width="1.5"/>
+      <path d="M10 0H75"
+            stroke="#FCEE0A"
+            stroke-width="2"/>
+    </g>
+  </defs>
+
+  <g clip-path="url(#frame)">
+
+    <!-- Background -->
+    <rect width="1200" height="400" fill="url(#bg)"/>
+    <rect width="1200" height="400" fill="url(#grid)"/>
+
+    <!-- Outer frame -->
+    <path d="M24 48L58 14H1142L1176 48
+             V352L1142 386H58L24 352Z"
+          fill="none"
+          stroke="#FCEE0A"
+          stroke-width="1.5">
+      <animate attributeName="stroke-opacity"
+               values=".55;1;.55"
+               dur="5s"
+               repeatCount="indefinite"/>
+    </path>
+
+    <!-- Header -->
+    <path d="M24 48L58 14H430L400 43H24Z"
+          fill="#FCEE0A"/>
+
+    <text x="65" y="35"
+          font-family="monospace"
+          font-size="19"
+          font-weight="bold"
+          fill="#080808">
+      01 — DEVELOPER DASHBOARD
+    </text>
+
+    <!-- Online indicator -->
+    <circle cx="1110" cy="30" r="5" fill="#FCEE0A">
+      <animate attributeName="opacity"
+               values="1;.2;1"
+               dur="1.5s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <text x="940" y="36"
+          font-family="monospace"
+          font-size="15"
+          fill="#FCEE0A">
+      SYSTEM ONLINE
+    </text>
+
+    <!-- LEFT COLUMN -->
+
+    <text x="65" y="93"
+          font-family="monospace"
+          font-size="24"
+          font-weight="bold"
+          fill="#FCEE0A">
+      &gt; IDENTITY
+    </text>
+
+    <path d="M65 106H545"
+          stroke="#FCEE0A"
+          stroke-opacity=".45"/>
+
+    <!-- Identity fields -->
+    <g font-family="monospace" font-size="17">
+
+      <text x="65" y="144" fill="#C9A800">
+        USER
+      </text>
+      <text x="205" y="144" fill="#F5F5F5">
+        CHKAMPAWLOW
+      </text>
+
+      <text x="65" y="176" fill="#C9A800">
+        LOCATION
+      </text>
+      <text x="205" y="176" fill="#F5F5F5">
+        TUNISIA
+      </text>
+
+      <text x="65" y="208" fill="#C9A800">
+        ROLE
+      </text>
+      <text x="205" y="208" fill="#F5F5F5">
+        SOFTWARE ENGINEERING
+      </text>
+
+      <text x="205" y="229" fill="#F5F5F5">
+        STUDENT
+      </text>
+
+    </g>
+
+    <!-- ANIMATED SYSTEM MODULES -->
+
+    <text x="65" y="258"
+          font-family="monospace"
+          font-size="18"
+          font-weight="bold"
+          fill="#FCEE0A">
+      &gt; SYSTEM MODULES
+    </text>
+
+    <!-- NETWORKING -->
+    <text x="65" y="280"
+          font-family="monospace"
+          font-size="13"
+          fill="#F5F5F5">
+      NETWORKING
+    </text>
+
+    <rect x="65" y="286"
+          width="450" height="4"
+          rx="2"
+          fill="#373509"/>
+
+    <rect x="65" y="286"
+          width="330" height="4"
+          rx="2"
+          fill="#FCEE0A">
+      <animate attributeName="width"
+               values="0;330;330;0"
+               keyTimes="0;.45;.85;1"
+               dur="4s"
+               repeatCount="indefinite"/>
+    </rect>
+
+    <!-- CYBERSECURITY -->
+    <text x="65" y="308"
+          font-family="monospace"
+          font-size="13"
+          fill="#F5F5F5">
+      CYBERSECURITY
+    </text>
+
+    <rect x="65" y="314"
+          width="450" height="4"
+          rx="2"
+          fill="#373509"/>
+
+    <rect x="65" y="314"
+          width="280" height="4"
+          rx="2"
+          fill="#FCEE0A">
+      <animate attributeName="width"
+               values="0;280;280;0"
+               keyTimes="0;.45;.85;1"
+               dur="4.5s"
+               repeatCount="indefinite"/>
+    </rect>
+
+    <!-- CLOUD & INFRASTRUCTURE -->
+    <text x="65" y="336"
+          font-family="monospace"
+          font-size="13"
+          fill="#F5F5F5">
+      CLOUD &amp; INFRASTRUCTURE
+    </text>
+
+    <rect x="65" y="342"
+          width="450" height="4"
+          rx="2"
+          fill="#373509"/>
+
+    <rect x="65" y="342"
+          width="310" height="4"
+          rx="2"
+          fill="#FCEE0A">
+      <animate attributeName="width"
+               values="0;310;310;0"
+               keyTimes="0;.45;.85;1"
+               dur="5s"
+               repeatCount="indefinite"/>
+    </rect>
+
+    <!-- COLUMN DIVIDER -->
+    <path d="M580 77V352"
+          stroke="#FCEE0A"
+          stroke-opacity=".3"
+          stroke-width="1"/>
+
+    <!-- RIGHT COLUMN -->
+
+    <text x="620" y="93"
+          font-family="monospace"
+          font-size="24"
+          font-weight="bold"
+          fill="#FCEE0A">
+      &gt; TECHNOLOGY ARSENAL
+    </text>
+
+    <path d="M620 106H1135"
+          stroke="#FCEE0A"
+          stroke-opacity=".45"/>
+
+    <!-- LANGUAGES -->
+    <text x="620" y="137"
+          font-family="monospace"
+          font-size="15"
+          fill="#C9A800">
+      LANGUAGES
+    </text>
+
+    <use href="#card" x="620" y="149"/>
+    <use href="#card" x="865" y="149"/>
+
+    <text x="639" y="184"
+          font-family="monospace"
+          font-size="17"
+          fill="#F5F5F5">
+      TS  TypeScript
+    </text>
+
+    <text x="884" y="184"
+          font-family="monospace"
+          font-size="17"
+          fill="#F5F5F5">
+      JS  JavaScript
+    </text>
+
+    <!-- PYTHON -->
+    <use href="#card" x="620" y="213"/>
+
+    <text x="639" y="248"
+          font-family="monospace"
+          font-size="17"
+          fill="#F5F5F5">
+      PY  Python
+    </text>
+
+    <!-- FRAMEWORK -->
+    <text x="865" y="231"
+          font-family="monospace"
+          font-size="15"
+          fill="#C9A800">
+      FRAMEWORK
+    </text>
+
+    <text x="884" y="254"
+          font-family="monospace"
+          font-size="18"
+          fill="#FCEE0A">
+      Angular
+    </text>
+
+    <!-- INFRASTRUCTURE -->
+    <text x="620" y="298"
+          font-family="monospace"
+          font-size="15"
+          fill="#C9A800">
+      TOOLS &amp; INFRASTRUCTURE
+    </text>
+
+    <g font-family="monospace"
+       font-size="17"
+       fill="#F5F5F5">
+
+      <text x="620" y="334">
+        [ Docker ]
+      </text>
+
+      <text x="780" y="334">
+        [ Git ]
+      </text>
+
+      <text x="895" y="334">
+        [ Linux ]
+      </text>
+
+    </g>
+
+    <!-- BOTTOM STATUS: NO OVERLAPPING LINE -->
+    <text x="65" y="372"
+          font-family="monospace"
+          font-size="11"
+          fill="#C9A800">
+      BUILDING SYSTEMS. EXPLORING TECHNOLOGY.
+    </text>
+
+    <!-- Animated scanline -->
+    <rect x="25" y="-5"
+          width="1150" height="2"
+          fill="#FCEE0A"
+          opacity=".10">
+      <animate attributeName="y"
+               from="-5"
+               to="405"
+               dur="9s"
+               repeatCount="indefinite"/>
+    </rect>
+
+  </g>
+</svg>
