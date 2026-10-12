@@ -1,42 +1,12 @@
 <div align="center">
 
-  <!-- HERO BANNER -->
+  <!-- One SVG keeps the profile sections continuous on GitHub.
+       Rebuild after editing source banners: python3 scripts/build_profile.py -->
   <img
-    src="./assets/cyberpunk-header.svg"
+    src="./assets/cyberpunk-profile.svg"
     width="100%"
-    alt="CHKAMPAWLOW Cyberpunk Developer Banner"
+    alt="CHKAMPAWLOW — software engineering student in Tunisia. Full-stack developer exploring networking, cybersecurity, and infrastructure. Technologies: TypeScript, JavaScript, Python, Angular, Docker, Git, Linux. Featured projects: Psychic Marketplace and Syndic Management. Always building."
   />
-
-  <!-- INTRODUCTION -->
-  <p>
-    <code>INITIALIZING DEVELOPER PROFILE...</code>
-  </p>
-
-  <p>
-    Software engineering student exploring the systems behind modern applications.<br>
-    Building web platforms, experimenting with infrastructure, and learning how<br>
-    networking, cybersecurity, and software architecture fit together.
-  </p>
-
-  <sub>⚡ CURRENT STATUS: ALWAYS BUILDING</sub>
-
-  <!-- DEVELOPER DASHBOARD -->
-  <p>
-    <img
-      src="./assets/cyberpunk-dashboard.svg"
-      width="100%"
-      alt="CHKAMPAWLOW Developer Dashboard"
-    />
-  </p>
-
-  <!-- FEATURED PROJECTS -->
-  <p>
-    <img
-      src="./assets/cyberpunk-projects.svg"
-      width="100%"
-      alt="CHKAMPAWLOW Featured Projects"
-    />
-  </p>
 
   <!-- PROJECT LINK -->
   <a href="https://github.com/chkampawlow/syndic-management">
@@ -90,14 +60,5 @@
       alt="Explore Repositories"
     />
   </a>
-
-  <!-- FOOTER -->
-  <p>
-    <img
-      src="./assets/cyberpunk-footer.svg"
-      width="100%"
-      alt="End of Transmission"
-    />
-  </p>
 
 </div>

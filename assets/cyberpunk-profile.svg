@@ -1,0 +1,378 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1420" viewBox="0 0 1200 1420" role="img" aria-labelledby="profile-title profile-description">
+  <title id="profile-title">CHKAMPAWLOW — Developer Profile</title>
+  <desc id="profile-description">Software engineering student in Tunisia.
+    Full-stack development, networking, cybersecurity, and infrastructure.
+    Technologies: TypeScript, JavaScript, Python, Angular, Docker, Git, Linux.
+    Featured projects: Psychic Marketplace and Syndic Management.</desc>
+  <defs>
+    <linearGradient id="profile-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080808" />
+      <stop offset="100%" stop-color="#171604" />
+    </linearGradient>
+    <pattern id="profile-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#FCEE0A" stroke-opacity=".05" />
+    </pattern>
+    <clipPath id="profile-clip">
+      <rect width="1200" height="1420" rx="8" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#profile-clip)">
+    <rect width="1200" height="1420" fill="url(#profile-bg)" />
+    <rect width="1200" height="1420" fill="url(#profile-grid)" />
+    <path d="M24 55L65 15H1135L1176 55V1365L1135 1405H65L24 1365Z" fill="none" stroke="#FCEE0A" stroke-width="1.5" />
+    <g transform="translate(0 0)">
+      <defs>
+        <linearGradient id="header-bg" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#080808" />
+          <stop offset="100%" stop-color="#1B1905" />
+        </linearGradient>
+        <pattern id="header-grid" width="35" height="35" patternUnits="userSpaceOnUse">
+          <path d="M35 0H0V35" fill="none" stroke="#FCEE0A" stroke-opacity=".10" />
+        </pattern>
+        <clipPath id="header-frame">
+          <rect width="1200" height="360" rx="8" />
+        </clipPath>
+      </defs>
+      <path d="M25 55L65 15H380L350 45H25Z" fill="#FCEE0A" />
+      <text x="75" y="36" font-family="monospace" font-size="20" font-weight="bold" fill="#080808">
+      CHKAMPAWLOW.EXE
+    </text>
+      <circle cx="1080" cy="35" r="6" fill="#FCEE0A">
+        <animate attributeName="opacity" values="1;.2;1" dur="1.5s" repeatCount="indefinite" />
+      </circle>
+      <text x="950" y="41" font-family="monospace" font-size="17" fill="#FCEE0A">
+      SYSTEM ONLINE
+    </text>
+      <text x="80" y="115" font-family="monospace" font-size="24" fill="#F5F5F5">
+      &gt; HELLO, WORLD
+    </text>
+      <rect x="325" y="94" width="13" height="25" fill="#FCEE0A">
+        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+      </rect>
+      <text x="75" y="185" font-family="monospace" font-size="66" font-weight="bold" fill="#FCEE0A">
+      CHKAMPAWLOW
+      <animate attributeName="opacity" values="1;1;.65;1;1" keyTimes="0;.75;.78;.81;1" dur="7s" repeatCount="indefinite" />
+      </text>
+      <rect x="80" y="210" width="550" height="2" fill="#FCEE0A">
+        <animate attributeName="width" values="0;550;550" keyTimes="0;.45;1" dur="4s" repeatCount="indefinite" />
+      </rect>
+      <g font-family="monospace" font-size="20" fill="#F5F5F5">
+        <text x="80" y="245">&gt; SOFTWARE ENGINEERING STUDENT</text>
+        <text x="80" y="275">&gt; FULL-STACK DEVELOPER</text>
+        <text x="80" y="305">&gt; BUILDING DIGITAL PRODUCTS</text>
+      </g>
+      <circle cx="930" cy="185" r="100" fill="none" stroke="#C9A800" stroke-width="1" stroke-dasharray="3 9" opacity=".6" />
+      <circle cx="930" cy="185" r="75" fill="none" stroke="#FCEE0A" stroke-width="2" stroke-dasharray="15 8">
+        <animateTransform attributeName="transform" type="rotate" from="0 930 185" to="360 930 185" dur="18s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="930" cy="185" r="48" fill="none" stroke="#FCEE0A" stroke-width="2">
+        <animate attributeName="r" values="46;52;46" dur="3s" repeatCount="indefinite" />
+      </circle>
+      <g transform="translate(930 185)">
+        <polygon points="0,-48 42,-24 42,24 0,48 -42,24 -42,-24" fill="none" stroke="#FCEE0A" stroke-width="2.5">
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="16s" repeatCount="indefinite" />
+        </polygon>
+        <polygon points="0,-29 25,-14.5 25,14.5 0,29 -25,14.5 -25,-14.5" fill="#FCEE0A" fill-opacity=".06" stroke="#C9A800" stroke-width="2">
+          <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="9s" repeatCount="indefinite" />
+        </polygon>
+        <g stroke="#FCEE0A" stroke-width="1.5" opacity=".7">
+          <line x1="0" y1="-34" x2="0" y2="-19" />
+          <line x1="29" y1="-17" x2="16" y2="-9" />
+          <line x1="29" y1="17" x2="16" y2="9" />
+          <line x1="0" y1="34" x2="0" y2="19" />
+          <line x1="-29" y1="17" x2="-16" y2="9" />
+          <line x1="-29" y1="-17" x2="-16" y2="-9" />
+        </g>
+        <g fill="#FCEE0A">
+          <circle cx="0" cy="-34" r="3">
+            <animate attributeName="opacity" values="1;.2;1" dur="2s" begin="0s" repeatCount="indefinite" />
+          </circle>
+          <circle cx="29" cy="-17" r="3">
+            <animate attributeName="opacity" values="1;.2;1" dur="2s" begin=".3s" repeatCount="indefinite" />
+          </circle>
+          <circle cx="29" cy="17" r="3">
+            <animate attributeName="opacity" values="1;.2;1" dur="2s" begin=".6s" repeatCount="indefinite" />
+          </circle>
+          <circle cx="0" cy="34" r="3">
+            <animate attributeName="opacity" values="1;.2;1" dur="2s" begin=".9s" repeatCount="indefinite" />
+          </circle>
+          <circle cx="-29" cy="17" r="3">
+            <animate attributeName="opacity" values="1;.2;1" dur="2s" begin="1.2s" repeatCount="indefinite" />
+          </circle>
+          <circle cx="-29" cy="-17" r="3">
+            <animate attributeName="opacity" values="1;.2;1" dur="2s" begin="1.5s" repeatCount="indefinite" />
+          </circle>
+        </g>
+        <circle cx="0" cy="0" r="12" fill="#FCEE0A" fill-opacity=".15" stroke="#FCEE0A" stroke-width="2">
+          <animate attributeName="r" values="10;15;10" dur="2s" repeatCount="indefinite" />
+          <animate attributeName="fill-opacity" values=".1;.5;.1" dur="2s" repeatCount="indefinite" />
+        </circle>
+        <circle cx="0" cy="0" r="4" fill="#FCEE0A">
+          <animate attributeName="opacity" values="1;.4;1" dur="1.5s" repeatCount="indefinite" />
+        </circle>
+      </g>
+      <text x="930" y="315" text-anchor="middle" font-family="monospace" font-size="15" fill="#FCEE0A">
+      BUILD // BREAK // LEARN
+    </text>
+      <rect x="80" y="328" width="120" height="3" fill="#FCEE0A">
+        <animate attributeName="width" values="30;120;30" dur="3s" repeatCount="indefinite" />
+      </rect>
+    </g>
+    <g font-family="monospace">
+      <text x="65" y="390" fill="#FCEE0A" font-size="18">&gt; INITIALIZING DEVELOPER PROFILE...</text>
+      <g fill="#F5F5F5" font-size="18">
+        <text x="65" y="425">Software engineering student exploring the systems behind modern applications.</text>
+        <text x="65" y="454">Building web platforms, experimenting with infrastructure, and learning how</text>
+        <text x="65" y="483">networking, cybersecurity, and software architecture fit together.</text>
+      </g>
+      <text x="65" y="516" fill="#C9A800" font-size="14">CURRENT STATUS: ALWAYS BUILDING</text>
+      <path d="M65 540H1135" stroke="#FCEE0A" stroke-opacity=".3" />
+    </g>
+    <g transform="translate(0 550)">
+      <defs>
+        <linearGradient id="dashboard-bg" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#080808" />
+          <stop offset="100%" stop-color="#171604" />
+        </linearGradient>
+        <pattern id="dashboard-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+          <path d="M30 0H0V30" fill="none" stroke="#FCEE0A" stroke-opacity=".04" />
+        </pattern>
+        <clipPath id="dashboard-frame">
+          <rect width="1200" height="400" rx="8" />
+        </clipPath>
+        <g id="dashboard-card">
+          <path d="M0 10L10 0H225L235 10V47L225 57H10L0 47Z" fill="#151407" stroke="#5D5512" stroke-width="1.5" />
+          <path d="M10 0H75" stroke="#FCEE0A" stroke-width="2" />
+        </g>
+      </defs>
+      <path d="M24 48L58 14H430L400 43H24Z" fill="#FCEE0A" />
+      <text x="65" y="35" font-family="monospace" font-size="19" font-weight="bold" fill="#080808">
+      01 — DEVELOPER DASHBOARD
+    </text>
+      <circle cx="1110" cy="30" r="5" fill="#FCEE0A">
+        <animate attributeName="opacity" values="1;.2;1" dur="1.5s" repeatCount="indefinite" />
+      </circle>
+      <text x="940" y="36" font-family="monospace" font-size="15" fill="#FCEE0A">
+      SYSTEM ONLINE
+    </text>
+      <text x="65" y="93" font-family="monospace" font-size="24" font-weight="bold" fill="#FCEE0A">
+      &gt; IDENTITY
+    </text>
+      <path d="M65 106H545" stroke="#FCEE0A" stroke-opacity=".45" />
+      <g font-family="monospace" font-size="17">
+        <text x="65" y="144" fill="#C9A800">
+        USER
+      </text>
+        <text x="205" y="144" fill="#F5F5F5">
+        CHKAMPAWLOW
+      </text>
+        <text x="65" y="176" fill="#C9A800">
+        LOCATION
+      </text>
+        <text x="205" y="176" fill="#F5F5F5">
+        TUNISIA
+      </text>
+        <text x="65" y="208" fill="#C9A800">
+        ROLE
+      </text>
+        <text x="205" y="208" fill="#F5F5F5">
+        SOFTWARE ENGINEERING
+      </text>
+        <text x="205" y="229" fill="#F5F5F5">
+        STUDENT
+      </text>
+      </g>
+      <text x="65" y="258" font-family="monospace" font-size="18" font-weight="bold" fill="#FCEE0A">
+      &gt; SYSTEM MODULES
+    </text>
+      <text x="65" y="280" font-family="monospace" font-size="13" fill="#F5F5F5">
+      NETWORKING
+    </text>
+      <rect x="65" y="286" width="450" height="4" rx="2" fill="#373509" />
+      <rect x="65" y="286" width="330" height="4" rx="2" fill="#FCEE0A">
+        <animate attributeName="width" values="0;330;330;0" keyTimes="0;.45;.85;1" dur="4s" repeatCount="indefinite" />
+      </rect>
+      <text x="65" y="308" font-family="monospace" font-size="13" fill="#F5F5F5">
+      CYBERSECURITY
+    </text>
+      <rect x="65" y="314" width="450" height="4" rx="2" fill="#373509" />
+      <rect x="65" y="314" width="280" height="4" rx="2" fill="#FCEE0A">
+        <animate attributeName="width" values="0;280;280;0" keyTimes="0;.45;.85;1" dur="4.5s" repeatCount="indefinite" />
+      </rect>
+      <text x="65" y="336" font-family="monospace" font-size="13" fill="#F5F5F5">
+      CLOUD &amp; INFRASTRUCTURE
+    </text>
+      <rect x="65" y="342" width="450" height="4" rx="2" fill="#373509" />
+      <rect x="65" y="342" width="310" height="4" rx="2" fill="#FCEE0A">
+        <animate attributeName="width" values="0;310;310;0" keyTimes="0;.45;.85;1" dur="5s" repeatCount="indefinite" />
+      </rect>
+      <path d="M580 77V352" stroke="#FCEE0A" stroke-opacity=".3" stroke-width="1" />
+      <text x="620" y="93" font-family="monospace" font-size="24" font-weight="bold" fill="#FCEE0A">
+      &gt; TECHNOLOGY ARSENAL
+    </text>
+      <path d="M620 106H1135" stroke="#FCEE0A" stroke-opacity=".45" />
+      <text x="620" y="137" font-family="monospace" font-size="15" fill="#C9A800">
+      LANGUAGES
+    </text>
+      <use href="#dashboard-card" x="620" y="149" />
+      <use href="#dashboard-card" x="865" y="149" />
+      <text x="639" y="184" font-family="monospace" font-size="17" fill="#F5F5F5">
+      TS  TypeScript
+    </text>
+      <text x="884" y="184" font-family="monospace" font-size="17" fill="#F5F5F5">
+      JS  JavaScript
+    </text>
+      <use href="#dashboard-card" x="620" y="213" />
+      <text x="639" y="248" font-family="monospace" font-size="17" fill="#F5F5F5">
+      PY  Python
+    </text>
+      <text x="865" y="231" font-family="monospace" font-size="15" fill="#C9A800">
+      FRAMEWORK
+    </text>
+      <text x="884" y="254" font-family="monospace" font-size="18" fill="#FCEE0A">
+      Angular
+    </text>
+      <text x="620" y="298" font-family="monospace" font-size="15" fill="#C9A800">
+      TOOLS &amp; INFRASTRUCTURE
+    </text>
+      <g font-family="monospace" font-size="17" fill="#F5F5F5">
+        <text x="620" y="334">
+        [ Docker ]
+      </text>
+        <text x="780" y="334">
+        [ Git ]
+      </text>
+        <text x="895" y="334">
+        [ Linux ]
+      </text>
+      </g>
+      <text x="65" y="372" font-family="monospace" font-size="11" fill="#C9A800">
+      BUILDING SYSTEMS. EXPLORING TECHNOLOGY.
+    </text>
+    </g>
+    <g transform="translate(0 950)">
+      <defs>
+        <linearGradient id="projects-bg" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#080808" />
+          <stop offset="100%" stop-color="#171604" />
+        </linearGradient>
+        <pattern id="projects-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+          <path d="M30 0H0V30" fill="none" stroke="#FCEE0A" stroke-opacity=".04" />
+        </pattern>
+        <clipPath id="projects-frame">
+          <rect width="1200" height="350" rx="8" />
+        </clipPath>
+        <linearGradient id="projects-card-bg" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#191807" />
+          <stop offset="100%" stop-color="#0D0D0A" />
+        </linearGradient>
+      </defs>
+      <path d="M24 48L58 14H425L395 43H24Z" fill="#FCEE0A" />
+      <text x="65" y="35" font-family="monospace" font-size="19" font-weight="bold" fill="#080808">
+      02 — FEATURED PROJECTS
+    </text>
+      <text x="940" y="36" font-family="monospace" font-size="15" fill="#FCEE0A">
+      02 PROJECTS FOUND
+    </text>
+      <circle cx="1125" cy="30" r="5" fill="#FCEE0A">
+        <animate attributeName="opacity" values="1;.25;1" dur="1.5s" repeatCount="indefinite" />
+      </circle>
+      <path d="M65 78H575L590 93V286L575 301H65Z" fill="url(#projects-card-bg)" stroke="#6E6412" stroke-width="1.5" />
+      <path d="M65 78H260" stroke="#FCEE0A" stroke-width="3" />
+      <text x="88" y="109" font-family="monospace" font-size="14" fill="#C9A800">
+      PROJECT_001
+    </text>
+      <text x="88" y="148" font-family="monospace" font-size="27" font-weight="bold" fill="#FCEE0A">
+      PSYCHIC
+    </text>
+      <text x="88" y="179" font-family="monospace" font-size="27" font-weight="bold" fill="#FCEE0A">
+      MARKETPLACE
+    </text>
+      <text x="88" y="216" font-family="monospace" font-size="15" fill="#F5F5F5">
+      Connecting clients with
+    </text>
+      <text x="88" y="237" font-family="monospace" font-size="15" fill="#F5F5F5">
+      professional readers.
+    </text>
+      <text x="88" y="278" font-family="monospace" font-size="13" fill="#C9A800">
+      [ WEB PLATFORM ]
+    </text>
+      <g transform="translate(500 151)">
+        <circle r="43" fill="none" stroke="#6E6412" stroke-width="1" stroke-dasharray="4 7" />
+        <polygon points="0,-30 26,-15 26,15 0,30 -26,15 -26,-15" fill="none" stroke="#FCEE0A" stroke-width="2">
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="20s" repeatCount="indefinite" />
+        </polygon>
+        <circle r="11" fill="#FCEE0A" fill-opacity=".12" stroke="#FCEE0A">
+          <animate attributeName="r" values="9;14;9" dur="2.5s" repeatCount="indefinite" />
+        </circle>
+        <circle r="3" fill="#FCEE0A" />
+      </g>
+      <path d="M610 78H1120L1135 93V286L1120 301H610Z" fill="url(#projects-card-bg)" stroke="#6E6412" stroke-width="1.5" />
+      <path d="M610 78H805" stroke="#FCEE0A" stroke-width="3" />
+      <text x="633" y="109" font-family="monospace" font-size="14" fill="#C9A800">
+      PROJECT_002
+    </text>
+      <text x="633" y="148" font-family="monospace" font-size="27" font-weight="bold" fill="#FCEE0A">
+      SYNDIC
+    </text>
+      <text x="633" y="179" font-family="monospace" font-size="27" font-weight="bold" fill="#FCEE0A">
+      MANAGEMENT
+    </text>
+      <text x="633" y="216" font-family="monospace" font-size="15" fill="#F5F5F5">
+      Property and building
+    </text>
+      <text x="633" y="237" font-family="monospace" font-size="15" fill="#F5F5F5">
+      management application.
+    </text>
+      <text x="633" y="278" font-family="monospace" font-size="13" fill="#C9A800">
+      [ MANAGEMENT SYSTEM ]
+    </text>
+      <g transform="translate(1045 151)" fill="none" stroke="#FCEE0A" stroke-width="2">
+        <rect x="-23" y="-32" width="46" height="64" />
+        <path d="M-14 -22H-5V-13H-14Z                M5 -22H14V-13H5Z                M-14 -3H-5V6H-14Z                M5 -3H14V6H5Z                M-6 32V16H6V32" />
+        <circle r="43" stroke="#6E6412" stroke-width="1" stroke-dasharray="4 7">
+          <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="24s" repeatCount="indefinite" />
+        </circle>
+      </g>
+      <path d="M65 317H1135" stroke="#FCEE0A" stroke-opacity=".3" />
+      <text x="65" y="330" font-family="monospace" font-size="10" fill="#C9A800">
+      BUILDING REAL-WORLD DIGITAL SOLUTIONS
+    </text>
+    </g>
+    <g transform="translate(0 1260)">
+      <defs>
+        <linearGradient id="footer-footer-bg" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#080808" />
+          <stop offset="100%" stop-color="#171604" />
+        </linearGradient>
+        <pattern id="footer-footer-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+          <path d="M30 0H0V30" fill="none" stroke="#FCEE0A" stroke-opacity=".035" />
+        </pattern>
+        <clipPath id="footer-footer-clip">
+          <rect width="1200" height="150" rx="8" />
+        </clipPath>
+      </defs>
+      <text x="70" y="55" font-family="monospace" font-size="14" fill="#C9A800">
+      CHKAMPAWLOW.EXE &gt; SESSION_COMPLETE
+    </text>
+      <text x="70" y="94" font-family="monospace" font-size="31" font-weight="bold" fill="#FCEE0A">
+      ALWAYS BUILDING SMTHN
+    </text>
+      <rect x="485" y="70" width="13" height="28" fill="#FCEE0A">
+        <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite" />
+      </rect>
+      <text x="1120" y="60" text-anchor="end" font-family="monospace" font-size="17" fill="#F5F5F5">
+      END OF TRANSMISSION
+    </text>
+      <text x="1120" y="85" text-anchor="end" font-family="monospace" font-size="13" fill="#C9A800">
+      CONNECTION TERMINATED
+    </text>
+      <circle cx="1107" cy="109" r="4" fill="#FCEE0A">
+        <animate attributeName="opacity" values="1;.2;1" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <text x="1095" y="113" text-anchor="end" font-family="monospace" font-size="12" fill="#C9A800">
+      SYSTEM IDLE
+    </text>
+    </g>
+  </g>
+</svg>
