@@ -20,13 +20,13 @@
   <h3>⚡ 03 — DEVELOPER ACTIVITY</h3>
 
   <img
-    src="https://github-readme-stats.vercel.app/api?username=chkampawlow&show_icons=true&hide_border=true&bg_color=080808&title_color=FCEE0A&text_color=F5F5F5&icon_color=FCEE0A"
+    src="https://github-stats-extended.vercel.app/api?username=chkampawlow&show_icons=true&hide_border=true&bg_color=080808&title_color=FCEE0A&text_color=F5F5F5&icon_color=FCEE0A"
     height="165"
     alt="GitHub Statistics"
   />
 
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=chkampawlow&layout=compact&hide_border=true&bg_color=080808&title_color=FCEE0A&text_color=F5F5F5"
+    src="https://github-stats-extended.vercel.app/api/top-langs/?username=chkampawlow&layout=compact&hide_border=true&bg_color=080808&title_color=FCEE0A&text_color=F5F5F5"
     height="165"
     alt="Most Used Languages"
   />
